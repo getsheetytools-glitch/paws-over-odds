@@ -33,7 +33,7 @@ pageClass: about
       <h2>What this site is not</h2>
       <ul>
         <li>It is not a substitute for veterinary care. Please keep seeing your vet.</li>
-        <li>It is not selling you anything (except on the <a href="/promotions/">promotions page</a>, which is clearly disclosed).</li>
+        <li>It is not selling you anything (except on the <a href="{{ '/promotions/' | url }}">promotions page</a>, which is clearly disclosed).</li>
         <li>It does not have a miracle cure.</li>
         <li>It is not always right — I am not a vet. Everything here is personal experience and research, offered in good faith.</li>
       </ul>
@@ -48,7 +48,7 @@ pageClass: about
       <div class="sidebar-card">
         <div class="sidebar-card-title">Our cats</div>
         {% for cat in cats %}
-        <a href="/our-cats/#{{ cat.slug }}" class="about-cat-row">
+        <a href="{{ '/our-cats/#{{ cat.slug }}' | url }}" class="about-cat-row">
           <span class="about-cat-emoji">{{ cat.emoji }}</span>
           <div>
             <strong>{{ cat.name }}</strong>

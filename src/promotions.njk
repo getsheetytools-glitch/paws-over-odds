@@ -18,7 +18,7 @@ pageClass: promotions
     <div class="transparency-icon">📋</div>
     <div>
       <h2>How this page works</h2>
-      <p>Some of these partnerships earn us a small commission or flat fee. That income helps keep the rest of this site free, ad-free, and maintained. We will always disclose when a listing is sponsored, and we will never list a product we don't stand behind. If you have a question about any listing, <a href="/about/">reach out</a>.</p>
+      <p>Some of these partnerships earn us a small commission or flat fee. That income helps keep the rest of this site free, ad-free, and maintained. We will always disclose when a listing is sponsored, and we will never list a product we don't stand behind. If you have a question about any listing, <a href="{{ '/about/' | url }}">reach out</a>.</p>
     </div>
   </div>
 </section>
@@ -73,7 +73,7 @@ pageClass: promotions
               {% if sponsor.conditions %}
               <div class="promo-conditions">
                 {% for condition in sponsor.conditions %}
-                <a href="/conditions/{{ condition }}/" class="promo-condition-chip">{{ condition | upper }}</a>
+                <a href="{{ '/conditions/{{ condition }}/' | url }}" class="promo-condition-chip">{{ condition | upper }}</a>
                 {% endfor %}
               </div>
               {% endif %}
@@ -109,7 +109,7 @@ pageClass: promotions
   <div class="promos-empty-inner">
     <span class="promos-empty-icon">🏷️</span>
     <h2>Deals and codes coming soon</h2>
-    <p>We're building this out carefully — only listing products and services we'd actually recommend. Check back soon, or <a href="/about/">get in touch</a> if you're a brand interested in partnering.</p>
+    <p>We're building this out carefully — only listing products and services we'd actually recommend. Check back soon, or <a href="{{ '/about/' | url }}">get in touch</a> if you're a brand interested in partnering.</p>
     <div class="promos-promise">
       <strong>Our promise:</strong> Every listing on this page will be something we've used or researched. No pay-to-play. No mystery partnerships. If it's here, it's because we think it genuinely helps cat owners.
     </div>

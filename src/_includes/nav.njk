@@ -1,6 +1,6 @@
 <nav class="site-nav" aria-label="Main navigation">
   <div class="nav-inner">
-    <a href="/" class="nav-logo">
+    <a href="{{ '/' | url }}" class="nav-logo">
       <div class="nav-logo-mark" aria-hidden="true">🐾</div>
       <span class="nav-logo-text">Paws <em>Over</em> Odds</span>
     </a>
@@ -10,12 +10,12 @@
     </button>
 
     <ul class="nav-links" role="list">
-      <li><a href="/our-cats/">Our Cats</a></li>
-      <li><a href="/conditions/">Conditions</a></li>
-      <li><a href="/advocate/">Vet Toolkit</a></li>
-      <li><a href="/milton-sorbet/">Milton & Sorbet</a></li>
-      <li><a href="/promotions/" class="nav-promos">Deals & Codes</a></li>
-      <li><a href="/conditions/ckd/" class="nav-cta">Start with CKD</a></li>
+      <li><a href="{{ '/our-cats/' | url }}">Our Cats</a></li>
+      <li><a href="{{ '/conditions/' | url }}">Conditions</a></li>
+      <li><a href="{{ '/advocate/' | url }}">Vet Toolkit</a></li>
+      <li><a href="{{ '/milton-sorbet/' | url }}">Milton & Sorbet</a></li>
+      <li><a href="{{ '/promotions/' | url }}" class="nav-promos">Deals & Codes</a></li>
+      <li><a href="{{ '/conditions/ckd/' | url }}" class="nav-cta">Start with CKD</a></li>
     </ul>
   </div>
 </nav>

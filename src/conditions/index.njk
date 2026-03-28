@@ -18,7 +18,7 @@ pageClass: conditions-index
 
     {% for condition in conditions %}
       {% if condition.featured %}
-      <a href="/conditions/{{ condition.slug }}/" class="condition-card condition-featured">
+      <a href="{{ '/conditions/{{ condition.slug }}/' | url }}" class="condition-card condition-featured">
         <span class="cond-icon">{{ condition.icon }}</span>
         <div class="cond-body">
           <div class="cond-kicker">Most comprehensive section</div>
@@ -41,7 +41,7 @@ pageClass: conditions-index
     <div class="conditions-grid">
       {% for condition in conditions %}
         {% if not condition.featured %}
-        <a href="/conditions/{{ condition.slug }}/" class="condition-card">
+        <a href="{{ '/conditions/{{ condition.slug }}/' | url }}" class="condition-card">
           <span class="cond-icon">{{ condition.icon }}</span>
           <h3 class="cond-name">{{ condition.name }}</h3>
           <p class="cond-tagline">{{ condition.tagline }}</p>
@@ -67,7 +67,7 @@ pageClass: conditions-index
     <div>
       <h2>Don't know what's wrong yet?</h2>
       <p>If your cat is declining and you don't have a clear diagnosis, start with the vet advocacy toolkit — it's built for exactly that situation.</p>
-      <a href="/advocate/" class="btn btn-outline">Go to the Vet Toolkit →</a>
+      <a href="{{ '/advocate/' | url }}" class="btn btn-outline">Go to the Vet Toolkit →</a>
     </div>
   </div>
 </section>

@@ -21,7 +21,7 @@ pageClass: our-cats
       <div class="cat-entry cat-{{ cat.status }}" id="{{ cat.slug }}">
 
         <div class="cat-photo-col">
-          <img src="{{ cat.photo }}" alt="{{ cat.name }}" class="cat-photo" loading="lazy">
+          <img src="{{ cat.photo | url }}" alt="{{ cat.name }}" class="cat-photo" loading="lazy">
           <span class="cat-status-badge badge-{{ cat.status }}">
             {% if cat.status == 'living' %}Living with CKD{% else %}In memory{% endif %}
           </span>
@@ -62,8 +62,8 @@ pageClass: our-cats
     <h2>Their stories are why this resource exists.</h2>
     <p>If you're here because your cat is sick, you're in the right place. Start with the condition that brought you here.</p>
     <div class="cta-actions">
-      <a href="/conditions/" class="btn btn-primary">Browse All Conditions</a>
-      <a href="/advocate/" class="btn btn-outline">Vet Advocacy Toolkit</a>
+      <a href="{{ '/conditions/' | url }}" class="btn btn-primary">Browse All Conditions</a>
+      <a href="{{ '/advocate/' | url }}" class="btn btn-outline">Vet Advocacy Toolkit</a>
     </div>
   </div>
 </section>
