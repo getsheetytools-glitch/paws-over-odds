@@ -1,0 +1,127 @@
+---
+layout: base.njk
+title: Contact
+description: Get in touch with Paws Beyond Odds — questions, stories, or brand partnerships.
+pageClass: contact
+---
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="eyebrow">Get in touch</div>
+    <h1>Contact <em>Us</em></h1>
+    <p>Whether you have a question about your cat, a story to share, or you're a brand interested in partnering — this is the place.</p>
+  </div>
+</div>
+
+<section class="contact-section">
+  <div class="contact-inner">
+
+    <div class="contact-reasons">
+      <div class="reason-card">
+        <div class="reason-icon">💬</div>
+        <h3>Questions about your cat</h3>
+        <p>We're not vets, and we can't give medical advice — but we can share what we've learned, point you to the right section of the site, or just listen. You're not alone in this.</p>
+      </div>
+      <div class="reason-card">
+        <div class="reason-icon">📖</div>
+        <h3>Share your story</h3>
+        <p>If your cat's experience — or your experience as their advocate — could help other owners, we'd love to hear it. Community knowledge is part of what makes this resource better.</p>
+      </div>
+      <div class="reason-card">
+        <div class="reason-icon">🤝</div>
+        <h3>Brand partnerships</h3>
+        <p>We work with brands whose products genuinely help cat owners managing chronic illness. We're selective, we disclose everything, and we only promote what we'd recommend anyway. See the <a href="{{ '/promotions/' | url }}">deals page</a> for how we approach this.</p>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <h2>Send a message</h2>
+
+      <!--
+        FORMSPREE SETUP:
+        1. Sign up at formspree.io
+        2. Create a new form
+        3. Replace YOUR_FORM_ID below with your actual form ID
+        e.g. action="https://formspree.io/f/abcdefgh"
+      -->
+      <form
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+        class="contact-form"
+      >
+        <div class="form-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="What should we call you?" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="So we can reply" required>
+        </div>
+
+        <div class="form-group">
+          <label for="reason">Reason for getting in touch</label>
+          <select id="reason" name="reason">
+            <option value="">Select one...</option>
+            <option value="cat-question">Question about my cat</option>
+            <option value="share-story">Sharing my story</option>
+            <option value="partnership">Brand partnership inquiry</option>
+            <option value="site-feedback">Site feedback or correction</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell us what's on your mind..." required></textarea>
+        </div>
+
+        <div class="form-group form-footer">
+          <p class="form-note">We read every message. Response time is typically 2–5 days. For urgent cat health situations, please contact your vet or an emergency animal hospital.</p>
+          <button type="submit" class="btn btn-primary">Send Message →</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<style>
+.contact-section { padding: 64px 32px; }
+.contact-inner { max-width: var(--max-w); margin: 0 auto; display: grid; grid-template-columns: 1fr 1.4fr; gap: 56px; align-items: start; }
+.contact-reasons { display: flex; flex-direction: column; gap: 24px; }
+.reason-card { background: var(--warm); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; }
+.reason-icon { font-size: 24px; margin-bottom: 8px; }
+.reason-card h3 { font-size: 1rem; margin-bottom: 6px; }
+.reason-card p { font-size: 14px; color: var(--text-mid); margin: 0; line-height: 1.65; }
+.contact-form-wrap h2 { margin-bottom: 24px; }
+.contact-form { display: flex; flex-direction: column; gap: 20px; }
+.form-group { display: flex; flex-direction: column; gap: 6px; }
+.form-group label { font-size: 14px; font-weight: 600; color: var(--text); }
+.form-group input,
+.form-group select,
+.form-group textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px; color: var(--text);
+  background: var(--warm);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  transition: border-color 0.15s;
+  width: 100%;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--forest);
+  box-shadow: 0 0 0 3px var(--forest-lt);
+}
+.form-group textarea { resize: vertical; min-height: 120px; }
+.form-footer { flex-direction: row; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.form-note { font-size: 13px; color: var(--text-soft); font-style: italic; max-width: 400px; line-height: 1.55; margin: 0; }
+@media (max-width: 768px) {
+  .contact-inner { grid-template-columns: 1fr; }
+  .form-footer { flex-direction: column; align-items: flex-start; }
+}
+</style>

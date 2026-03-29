@@ -5,36 +5,47 @@
     "status": "passed",
     "role": "The Beginning",
     "subtitle": "The one who made me a cat mom",
-    "emoji": "🐱",
+    "emoji": "\ud83d\udc31",
     "photo": "/assets/images/cats/minou.svg",
     "conditions": [
-      { "label": "Diabetes", "type": "diabetes" },
-      { "label": "Senior", "type": "general" }
+      {
+        "label": "Diabetes",
+        "type": "diabetes"
+      },
+      {
+        "label": "CKD",
+        "type": "ckd"
+      },
+      {
+        "label": "Senior",
+        "type": "general"
+      }
     ],
     "story": [
-      "A little old girl with diabetes who gave me the title of cat mom. Without Minou, none of this exists — no Bruce, no Artie, no Milton and Sorbet. She was the beginning of everything.",
-      "Managing a diabetic cat is a crash course in paying attention, in learning to read a body that can't tell you what it needs. She gave me that education, and I didn't fully understand what she was teaching me until much later."
+      "My little old girl \u2014 and the one who made me a cat mom. Minou had both diabetes and CKD, and she taught me what it meant to manage a complex, chronic illness in a cat who couldn't tell you how she felt. She passed away peacefully in my sister's arms.",
+      "Without Minou, none of this exists. She was the foundation of everything I know about advocating for a sick cat, about paying attention, and about understanding that the goal was always her comfort \u2014 not perfect numbers."
     ],
-    "lesson": "Becoming a cat mom means becoming an advocate. The moment you take on a cat with a chronic condition, you become part of their medical team — whether anyone tells you that or not."
+    "lesson": "Managing a cat with multiple chronic conditions means learning to read the whole animal. Numbers tell part of the story. How she felt in my sister's arms at the end told the rest."
   },
   {
-    "name": "Yams",
-    "slug": "yams",
+    "name": "Bruce",
+    "slug": "bruce",
     "status": "passed",
-    "role": "The Sweet One",
-    "subtitle": "Adopted into complexity",
-    "emoji": "🟠",
-    "photo": "/assets/images/cats/yams.svg",
+    "role": "The Teacher",
+    "subtitle": "Who this site was built for",
+    "emoji": "\ud83d\udc08\u200d\u2b1b",
+    "photo": "/assets/images/cats/bruce.svg",
     "conditions": [
-      { "label": "Adopted with issues", "type": "general" },
-      { "label": "Rapid decline", "type": "mystery" },
-      { "label": "Possible sepsis", "type": "mystery" }
+      {
+        "label": "CKD \u2014 managed 2\u20133 years",
+        "type": "ckd"
+      }
     ],
     "story": [
-      "My first orange boy. Such a sweetie, and he came to us already carrying health issues. The cruelty of Yams's story was the timeline — he declined incredibly quickly, what seemed to be sepsis taking him before we could fight back.",
-      "When a cat comes to you already fragile, the system often isn't built for them. The urgency is different. The decisions are faster. The window is smaller."
+      "Bruce was the one who changed how I think about all of it. For two to three years I managed her CKD through trial and error, through frustrated vet appointments, through slowly learning that the official guidance often wasn't the whole story.",
+      "She taught me to push back. To prioritize her happiness over her lab numbers. To treat her as a whole cat, not a set of results. She passed at home, with us, after a planned home euthanasia \u2014 the most loving end we could give her after everything she gave us. This site exists because of her."
     ],
-    "lesson": "Adopted cats with pre-existing conditions deserve the same aggressive advocacy as any other cat. When the window is small, you need to know what questions to ask — and ask them immediately."
+    "lesson": "Managing CKD is not about chasing perfect bloodwork. It's about keeping your cat comfortable, engaged, and eating \u2014 even when that means making choices your vet didn't suggest."
   },
   {
     "name": "Murphy",
@@ -42,18 +53,95 @@
     "status": "passed",
     "role": "The Fighter",
     "subtitle": "Our tripod girl",
-    "emoji": "🐾",
+    "emoji": "\ud83d\udc3e",
     "photo": "/assets/images/cats/murphy.svg",
     "conditions": [
-      { "label": "Breast cancer", "type": "cancer" },
-      { "label": "Tripod", "type": "general" },
-      { "label": "Chemotherapy", "type": "general" }
+      {
+        "label": "Tripod",
+        "type": "general"
+      },
+      {
+        "label": "Hyperthyroid (brief)",
+        "type": "hyper"
+      },
+      {
+        "label": "Breast cancer",
+        "type": "cancer"
+      },
+      {
+        "label": "Chemotherapy",
+        "type": "general"
+      }
     ],
     "story": [
-      "Our adopted tripod girl. Murphy fought on three legs and never slowed down — until breast cancer. We went through chemotherapy with her. It didn't help. She is the hardest lesson this site carries: sometimes you do everything right and it still isn't enough.",
-      "Murphy taught us that the goal was never to win every fight. It was to make sure every fight was worth fighting — and that the life in between the battles was full and warm and hers."
+      "Our adopted tripod girl, who fought on three legs and never slowed down. Murphy had a brief period of hyperthyroidism before the harder diagnosis came: breast cancer. We went through chemotherapy with her. It didn't help.",
+      "When chemo stopped working, the vet recommended euthanasia rather than putting her through more treatment. That conversation \u2014 when the recommendation is to stop \u2014 is one of the hardest a cat owner faces. Murphy taught us that knowing when to change the goal is its own kind of courage."
     ],
-    "lesson": "Knowing when to fight and knowing when to change the goal — from cure to comfort, from treatment to quality — is the hardest and most important skill a cat parent can develop."
+    "lesson": "Knowing when to fight and when to change the goal \u2014 from cure to comfort \u2014 is the hardest and most important skill a cat parent can develop. Murphy showed us that letting go can be the most loving choice."
+  },
+  {
+    "name": "Milton",
+    "slug": "milton",
+    "status": "living",
+    "role": "The Complicated One",
+    "subtitle": "More going on than meets the eye",
+    "emoji": "\ud83d\udc08",
+    "photo": "/assets/images/cats/milton.svg",
+    "conditions": [
+      {
+        "label": "CKD \u2014 early stage",
+        "type": "ckd"
+      },
+      {
+        "label": "Orthopedic surgery",
+        "type": "general"
+      },
+      {
+        "label": "Arthritis",
+        "type": "general"
+      },
+      {
+        "label": "Obesity",
+        "type": "general"
+      }
+    ],
+    "story": [
+      "Milton is proof that CKD rarely travels alone. He's had orthopedic surgery after rupturing the tendons in his wrist, lives with arthritis, and is extremely overweight \u2014 all of which complicates his kidney disease management significantly.",
+      "Managing Milton means making decisions where every choice affects something else. Weight loss is important for his joints and kidneys, but aggressive calorie restriction in a CKD cat carries its own risks. He's the living embodiment of why this site focuses on the whole cat, not just one diagnosis."
+    ],
+    "lesson": "When your cat has multiple overlapping conditions, optimising for one can work against another. Milton teaches us to manage the whole animal \u2014 not just the diagnosis in front of us."
+  },
+  {
+    "name": "Yams",
+    "slug": "yams",
+    "status": "passed",
+    "role": "The Sweet One",
+    "subtitle": "Adopted into complexity",
+    "emoji": "\ud83d\udfe0",
+    "photo": "/assets/images/cats/yams.svg",
+    "conditions": [
+      {
+        "label": "CKD",
+        "type": "ckd"
+      },
+      {
+        "label": "Stomatitis",
+        "type": "general"
+      },
+      {
+        "label": "Dehydration",
+        "type": "general"
+      },
+      {
+        "label": "Hypertension",
+        "type": "general"
+      }
+    ],
+    "story": [
+      "My first orange boy. Such a sweetie, and he came to us already carrying health issues \u2014 CKD, stomatitis, dehydration, and hypertension all compounding each other. The window for intervention was smaller than we understood at the time.",
+      "When we brought him to the emergency vet, the recommendation was euthanasia. That moment \u2014 when you've barely begun fighting and the medical advice is to stop \u2014 is devastating. Yams is the reason this site addresses emergency situations and the hardest vet conversations."
+    ],
+    "lesson": "When the emergency vet recommends euthanasia, you deserve enough information to make that decision clearly \u2014 not in a fog of shock. Knowing the questions to ask in advance changes everything."
   },
   {
     "name": "Artie",
@@ -61,70 +149,66 @@
     "status": "passed",
     "role": "The Mystery",
     "subtitle": "The one the system couldn't answer for",
-    "emoji": "🟠",
+    "emoji": "\ud83d\udfe0",
     "photo": "/assets/images/cats/artie.svg",
     "conditions": [
-      { "label": "FIV+", "type": "fiv" },
-      { "label": "Hyperthyroid", "type": "hyper" },
-      { "label": "Asthma", "type": "asthma" },
-      { "label": "Neurological symptoms", "type": "neuro" },
-      { "label": "Never diagnosed", "type": "mystery" }
+      {
+        "label": "FIV+",
+        "type": "fiv"
+      },
+      {
+        "label": "Hyperthyroid",
+        "type": "hyper"
+      },
+      {
+        "label": "Asthma",
+        "type": "asthma"
+      },
+      {
+        "label": "Neurological symptoms",
+        "type": "neuro"
+      },
+      {
+        "label": "Never diagnosed",
+        "type": "mystery"
+      }
     ],
     "story": [
-      "My second orange boy. Artie had FIV, hyperthyroidism, and asthma — a complex baseline. Then came neurological symptoms and a dropping body temperature. FIP negative. No cancer detected on cytology. And yet he declined.",
-      "The answer never came. We lost him without knowing why. That experience — the gap, the shrug, the unanswered question — is a large part of why this site exists. Artie represents every cat whose owner is told 'we're not sure' and sent home with nothing."
+      "My second orange boy. Artie had FIV, hyperthyroidism \u2014 we had planned radioactive iodine treatment \u2014 and asthma. Then came neurological symptoms and a dropping body temperature. FIP negative. No cancer detected on cytology. The answer never came.",
+      "We made the sad choice to put him down at the vet rather than let him decline without understanding why. Artie represents every cat whose owner is told 'we're not sure' and sent home with nothing. The gap in knowledge, the unanswered question \u2014 that's a large part of why this site exists."
     ],
-    "lesson": "The undiagnosed cat is one of the loneliest experiences in pet ownership. You deserve a community, a framework, and a set of questions to bring back to your vet — even when the answers aren't clear."
-  },
-  {
-    "name": "Bruce",
-    "slug": "bruce",
-    "status": "passed",
-    "role": "The Teacher",
-    "subtitle": "Who this site is named for",
-    "emoji": "🐈‍⬛",
-    "photo": "/assets/images/cats/bruce.svg",
-    "conditions": [
-      { "label": "CKD — managed 2–3 years", "type": "ckd" }
-    ],
-    "story": [
-      "Bruce was our greatest teacher. For two to three years we managed her CKD through trial and error, vet friction, and a slow accumulation of hard-won knowledge. She showed us that the official guidance often isn't the whole story.",
-      "Through Bruce, we learned to push back. To ask a second time when the first answer wasn't enough. To prioritize her happiness over perfectly regulated numbers. To treat her as a whole cat, not a set of lab results."
-    ],
-    "lesson": "Managing CKD is not about chasing perfect bloodwork. It's about keeping your cat comfortable, engaged, and eating — even when that means making choices your vet didn't suggest."
-  },
-  {
-    "name": "Milton",
-    "slug": "milton",
-    "status": "living",
-    "role": "The Living Proof",
-    "subtitle": "Early intervention, on our terms",
-    "emoji": "🐈",
-    "photo": "/assets/images/cats/milton.svg",
-    "conditions": [
-      { "label": "CKD — early stage", "type": "ckd" }
-    ],
-    "story": [
-      "Milton is everything we learned from Bruce, applied early. Managing his CKD proactively — before a crisis, not in response to one. The emphasis is on quality of life, not perfect numbers.",
-      "His ongoing care is documented in the Milton & Sorbet updates section. The wins, the experiments, the setbacks, and the small daily choices that add up to a good life."
-    ],
-    "lesson": "Early intervention changes everything. The sooner you start asking questions, the more options you have — and the more time you buy."
+    "lesson": "The undiagnosed cat is one of the loneliest experiences in pet ownership. You deserve more than a shrug. Artie is why we cover overlapping conditions and the limits of what current diagnostics can answer."
   },
   {
     "name": "Sorbet",
     "slug": "sorbet",
     "status": "living",
-    "role": "The Experiment",
-    "subtitle": "What changes before a crisis begins?",
-    "emoji": "🍧",
+    "role": "The Complex Case",
+    "subtitle": "Good numbers, still struggling",
+    "emoji": "\ud83c\udf67",
     "photo": "/assets/images/cats/sorbet.svg",
     "conditions": [
-      { "label": "CKD — early stage", "type": "ckd" }
+      {
+        "label": "CKD \u2014 early stage",
+        "type": "ckd"
+      },
+      {
+        "label": "FIV+",
+        "type": "fiv"
+      },
+      {
+        "label": "Hypertension",
+        "type": "general"
+      },
+      {
+        "label": "Hyperthyroid",
+        "type": "hyper"
+      }
     ],
     "story": [
-      "Sorbet is the question made real: what happens when you catch kidney disease early and manage it from day one with intention? No panic. No crisis. Just careful, informed, love-driven care.",
-      "Like Milton, his story is ongoing. We're figuring it out as we go — and documenting all of it."
+      "Sorbet is FIV positive, hypertensive, and hyperthyroid \u2014 and currently showing limited appetite despite thyroid numbers that look controlled. That last part is the puzzle we're actively working through: when the numbers look okay but the cat clearly doesn't feel okay.",
+      "He's the reminder that lab values are only part of the picture. Sorbet's ongoing care is documented in the Milton & Sorbet section \u2014 including the appetite challenge and what we're trying."
     ],
-    "lesson": "The early-stage CKD cat is an opportunity, not a sentence. What you do before things get bad matters enormously."
+    "lesson": "Good lab numbers don't always mean a good quality of life. Sorbet teaches us to keep looking when the cat's behaviour tells a different story than the bloodwork."
   }
 ]

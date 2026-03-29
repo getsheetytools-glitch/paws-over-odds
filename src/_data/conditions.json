@@ -3,80 +3,131 @@
     "slug": "ckd",
     "name": "Chronic Kidney Disease",
     "shortName": "CKD",
-    "icon": "🫘",
+    "icon": "\ud83e\uded8",
     "featured": true,
     "tagline": "Our most comprehensive section, built from years of real experience.",
-    "description": "From diagnosis through IRIS staging, diet, fluids, phosphorus management, and quality of life. Built from years managing Bruce's CKD and now Milton and Sorbet's early-stage disease.",
-    "relatedCats": ["Bruce", "Milton", "Sorbet"]
+    "description": "From diagnosis through IRIS staging, diet, fluids, phosphorus management, and quality of life. Built from managing Minou, Bruce, Milton, Yams, and Sorbet.",
+    "relatedCats": [
+      "Minou",
+      "Bruce",
+      "Milton",
+      "Yams",
+      "Sorbet"
+    ]
   },
   {
     "slug": "diabetes",
     "name": "Diabetes",
     "shortName": "Diabetes",
-    "icon": "🩸",
+    "icon": "\ud83e\ude78",
     "featured": false,
     "tagline": "Where Minou's story begins.",
-    "description": "Managing blood sugar, insulin dosing, diet, and the day-to-day reality of a diabetic cat.",
-    "relatedCats": ["Minou"]
+    "description": "Managing blood sugar, insulin dosing, diet, and the day-to-day reality of a diabetic cat. Minou had both diabetes and CKD \u2014 managing them together is its own challenge.",
+    "relatedCats": [
+      "Minou"
+    ]
   },
   {
     "slug": "hyperthyroidism",
     "name": "Hyperthyroidism",
     "shortName": "Hyperthyroid",
-    "icon": "🦋",
+    "icon": "\ud83e\udd8b",
     "featured": false,
-    "tagline": "Common in senior cats. Often overlapping with CKD.",
-    "description": "Overactive thyroid is one of the most common senior cat conditions — and its interaction with kidney disease is frequently misunderstood.",
-    "relatedCats": ["Artie"]
+    "tagline": "Common in senior cats. Frequently overlapping with CKD.",
+    "description": "Overactive thyroid \u2014 its interaction with kidney disease is frequently misunderstood. Artie had planned radioactive iodine treatment. Sorbet is currently managing it.",
+    "relatedCats": [
+      "Artie",
+      "Sorbet",
+      "Murphy"
+    ]
   },
   {
     "slug": "cancer",
     "name": "Cancer",
     "shortName": "Cancer",
-    "icon": "🎗️",
+    "icon": "\ud83c\udf97\ufe0f",
     "featured": false,
-    "tagline": "Murphy's story. The hardest chapter.",
-    "description": "From diagnosis to treatment decisions to the hardest conversations. Covers mammary cancer, lymphoma, cytology, chemotherapy, and quality-of-life decision frameworks.",
-    "relatedCats": ["Murphy"]
+    "tagline": "Murphy's story. Knowing when to stop is as hard as knowing when to fight.",
+    "description": "From diagnosis to treatment to the hardest conversations \u2014 including when a vet recommends stopping treatment. Murphy's breast cancer and chemotherapy experience lives here.",
+    "relatedCats": [
+      "Murphy"
+    ]
+  },
+  {
+    "slug": "stomatitis",
+    "name": "Stomatitis",
+    "shortName": "Stomatitis",
+    "icon": "\ud83e\uddb7",
+    "featured": false,
+    "tagline": "Painful, often misunderstood, and undertreated.",
+    "description": "Feline chronic stomatitis causes severe oral inflammation and pain. Often missed or undertreated. Yams had stomatitis compounding his other conditions.",
+    "relatedCats": [
+      "Yams"
+    ]
   },
   {
     "slug": "asthma",
     "name": "Asthma & Respiratory",
     "shortName": "Asthma",
-    "icon": "🌬️",
+    "icon": "\ud83c\udf2c\ufe0f",
     "featured": false,
     "tagline": "Managing chronic respiratory conditions alongside other diagnoses.",
-    "description": "Feline asthma, inhalers, triggers, and how respiratory disease interacts with other chronic conditions.",
-    "relatedCats": ["Artie"]
+    "description": "Feline asthma, inhalers, triggers, and how respiratory disease interacts with other chronic conditions. Artie had asthma as part of his complex picture.",
+    "relatedCats": [
+      "Artie"
+    ]
   },
   {
     "slug": "fiv",
     "name": "FIV & FeLV",
     "shortName": "FIV/FeLV",
-    "icon": "🧬",
+    "icon": "\ud83e\uddec",
     "featured": false,
-    "tagline": "Better prognosis than most people think.",
-    "description": "Retroviral infections — what a positive diagnosis actually means for your cat's life expectancy, and how to manage it alongside other conditions.",
-    "relatedCats": ["Artie"]
+    "tagline": "A better prognosis than most people think.",
+    "description": "FIV-positive cats can live long, full lives with appropriate management. Both Artie and Sorbet were FIV+. What it actually means for your cat \u2014 and what it doesn't.",
+    "relatedCats": [
+      "Artie",
+      "Sorbet"
+    ]
+  },
+  {
+    "slug": "hypertension",
+    "name": "Hypertension",
+    "shortName": "Hypertension",
+    "icon": "\u2764\ufe0f\u200d\ud83d\udd25",
+    "featured": false,
+    "tagline": "Often overlooked. Frequently undertreated.",
+    "description": "High blood pressure in cats causes silent damage to the kidneys, eyes, heart, and brain. Yams and Sorbet both had hypertension. It's more common than most cat owners realise.",
+    "relatedCats": [
+      "Yams",
+      "Sorbet"
+    ]
   },
   {
     "slug": "neurological",
     "name": "Neurological & Mystery Illness",
     "shortName": "Neuro & Mystery",
-    "icon": "🧠",
+    "icon": "\ud83e\udde0",
     "featured": false,
     "tagline": "For the undiagnosed cat. For Artie.",
-    "description": "Overlapping conditions, unexplained decline, and how to keep advocating when the tests come back negative. This section exists because of Artie.",
-    "relatedCats": ["Artie"]
+    "description": "Overlapping conditions, unexplained decline, and how to keep advocating when tests come back negative. This section exists because of Artie.",
+    "relatedCats": [
+      "Artie"
+    ]
   },
   {
     "slug": "multi-condition",
     "name": "Multi-Condition & Complex Cases",
     "shortName": "Complex Cases",
-    "icon": "📋",
+    "icon": "\ud83d\udccb",
     "featured": false,
     "tagline": "When nobody has the full picture.",
-    "description": "When your cat has two, three, or four overlapping diagnoses and the specialists aren't talking to each other.",
-    "relatedCats": ["Artie", "Minou"]
+    "description": "When your cat has two, three, or four overlapping diagnoses and the specialists aren't talking to each other. Milton, Artie, Minou, and Sorbet all fit here.",
+    "relatedCats": [
+      "Milton",
+      "Artie",
+      "Minou",
+      "Sorbet"
+    ]
   }
 ]

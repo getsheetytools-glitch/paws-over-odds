@@ -714,3 +714,61 @@ h1         { animation-delay: 0.16s; }
 .hero-actions { animation-delay: 0.34s; }
 .hero-cats-strip { animation-delay: 0.40s; }
 .hero-photo { animation: fadeUp 0.6s 0.28s ease both; }
+
+/* ── REGION BADGE ── */
+.region-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-top: 16px;
+  font-size: 12px; font-weight: 600;
+  background: rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.65);
+  padding: 4px 12px; border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.page-hero:not(.page-hero--forest) .region-badge {
+  background: var(--parchment); color: var(--text-soft);
+  border-color: var(--border);
+}
+
+/* ── FOOTER REGION NOTE ── */
+.footer-region-note {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: 16px 0;
+  margin-bottom: 0;
+}
+.region-inner {
+  font-size: 12px; color: rgba(255,255,255,0.3);
+  font-style: italic;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+/* ── TOC EXTRAS ── */
+.toc-divider { height: 1px; background: var(--border); margin: 16px 0; }
+.toc-next-page {
+  display: flex; flex-direction: column; gap: 2px;
+  background: var(--forest-lt); border: 1px solid #c0d4cc;
+  border-radius: 8px; padding: 10px 12px;
+  text-decoration: none; transition: background 0.15s;
+}
+.toc-next-page:hover { background: #d8ece6; }
+.toc-next-label { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-soft); }
+.toc-next-title { font-size: 13px; font-weight: 700; color: var(--forest); }
+
+/* ── CONDITION NEXT PAGE ── */
+.condition-next-page {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 24px; flex-wrap: wrap;
+  background: var(--forest); border-radius: var(--radius);
+  padding: 28px; margin-top: 32px;
+}
+.next-page-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); display: block; margin-bottom: 4px; }
+.condition-next-page h3 { color: white; margin-bottom: 6px; font-size: 1.1rem; }
+.condition-next-page p { color: rgba(255,255,255,0.7); font-size: 14px; margin: 0; max-width: 420px; }
+
+/* ── NAV PRINT LINK ── */
+.nav-print { color: var(--forest) !important; }
+.nav-print:hover { background: var(--forest-lt) !important; color: var(--forest) !important; }
+
+/* ── ABOUT PAGE ── */
+.about-body a { color: var(--amber); }
