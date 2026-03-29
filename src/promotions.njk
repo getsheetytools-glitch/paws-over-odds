@@ -73,7 +73,7 @@ pageClass: promotions
               {% if sponsor.conditions %}
               <div class="promo-conditions">
                 {% for condition in sponsor.conditions %}
-                <a href="{{ '/conditions/{{ condition }}/' | url }}" class="promo-condition-chip">{{ condition | upper }}</a>
+                <a href="{{ ('/conditions/' + condition + '/') | url }}" class="promo-condition-chip">{{ condition | upper }}</a>
                 {% endfor %}
               </div>
               {% endif %}

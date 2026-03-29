@@ -16,7 +16,7 @@
         <div class="footer-col-title">Conditions</div>
         <ul>
           {% for condition in conditions %}
-          <li><a href="/conditions/{{ condition.slug }}/">{{ condition.name }}</a></li>
+          <li><a href="{{ ('/conditions/' + condition.slug + '/') | url }}">{{ condition.name }}</a></li>
           {% endfor %}
         </ul>
       </div>

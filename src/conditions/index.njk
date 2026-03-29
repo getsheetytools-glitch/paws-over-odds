@@ -18,7 +18,7 @@ pageClass: conditions-index
 
     {% for condition in conditions %}
       {% if condition.featured %}
-      <a href="{{ '/conditions/{{ condition.slug }}/' | url }}" class="condition-card condition-featured">
+      <a href="{{ ('/conditions/' + condition.slug + '/') | url }}" class="condition-card condition-featured">
         <span class="cond-icon">{{ condition.icon }}</span>
         <div class="cond-body">
           <div class="cond-kicker">Most comprehensive section</div>
@@ -41,7 +41,7 @@ pageClass: conditions-index
     <div class="conditions-grid">
       {% for condition in conditions %}
         {% if not condition.featured %}
-        <a href="{{ '/conditions/{{ condition.slug }}/' | url }}" class="condition-card">
+        <a href="{{ ('/conditions/' + condition.slug + '/') | url }}" class="condition-card">
           <span class="cond-icon">{{ condition.icon }}</span>
           <h3 class="cond-name">{{ condition.name }}</h3>
           <p class="cond-tagline">{{ condition.tagline }}</p>
